@@ -5,16 +5,24 @@ let pages = 1;
     if (pages > 1) {
       pages --
       chargerFilms()
+      numPage()
+      
     }
   })
-
+  
   document.querySelector('.btn_prochain').addEventListener('click', function(){
     if (pages < 1000) {
       pages ++
       chargerFilms()
+      numPage()
     }
   })
 
+  function numPage (){
+    document.querySelector(".numPage").innerHTML = `Pag.  ${pages}`
+  }
+
+  numPage()
 
 
   // Function Charger Films

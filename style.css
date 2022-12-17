@@ -10,10 +10,13 @@ body {
 	color: #1d1d1d;
 }
 
-h2 {
-    margin-top: 15px;
-    font-size: 2.5rem;
-    text-align: center;
+.header{
+  color: white;
+  background: #1a1624;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;;
 }
 
 .container {
@@ -71,4 +74,12 @@ h2 {
 
 .pagination button:hover {
 	background: #137c32;
+}
+
+p{
+  margin-top: 15px;
+  color : white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
 }
